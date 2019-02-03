@@ -10,7 +10,7 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
 
-  <body>
+  <body background="images/image1.jpg"  style="background-attachment: fixed; background-repeat: no-repeat; background-size">
 
     <div id="index-banner" class="parallax-container">
       <div class="section no-pad-bot">
@@ -178,27 +178,27 @@
         <div class="row">
           <div class="col s12 center">
             <h3><i class="mdi-content-send brown-text"></i></h3>
-            <h4>Contact Me</h4>
+            <h4 style="color:white">Contact Me</h4>
             <div class="row">
-              <form class="col s12">
+              <form action="backend/email.php" method="post" class="col s12">
                 <div class="row">
                   <div class="input-field col s6">
-                    <input id="first_name" type="text" class="validate">
-                    <label for="first_name">First Name</label>
+                    <input id="first_name" type="text" class="validate" style="color:white;">
+                    <label for="first_name" name="first_name" style="color:white">First Name</label>
                   </div>
                   <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate">
-                    <label for="last_name">Last Name</label>
+                    <input id="last_name" type="text" class="validate" style="color:white">
+                    <label for="last_name" name="last_name" style="color:white">Last Name</label>
                   </div>
                 </div>
                 <div class="row">
                   <div class="input-field col s6">
-                    <input id="email" type="text" class="validate">
-                    <label for="email">Email</label>
+                    <input id="email" type="text" class="validate" style="color:white">
+                    <label for="email" name="email" style="color:white">Email</label>
                   </div>
                   <div class="input-field col s6">
-                    <input id="subject" type="text" class="validate">
-                    <label for="subject">Subject</label>
+                    <input id="subject" type="text" class="validate" style="color:white">
+                    <label for="subject" name="subject" style="color:white">Subject</label>
                   </div>
                 </div>
                 <div class="row">
@@ -206,14 +206,14 @@
                     <div class="row">
                       <div class="input-field col s12">
                         <i class="material-icons prefix">mode_edit</i>
-                        <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-                        <label for="icon_prefix2">Message</label>
+                        <textarea id="icon_prefix2" class="materialize-textarea" style="color:white"></textarea>
+                        <label for="icon_prefix2" name="message" style="color:white">Message</label>
                       </div>
                     </div>
                   </form>
                 </div>
                 <div class="row center">
-                <button class="btn waves-effect black waves-light" type="submit" name="action">Send
+                <button class="btn waves-effect black waves-light" type="submit" name="submit">Send
                 <i class="material-icons right">send</i>
                 </button>
                 </div>
@@ -235,14 +235,14 @@
       <div class="parallax"><img src="images/SprayWhatInk.jpg" alt="Unsplashed background img 3 width="250%" height="250%""></div>
     </div>
 
-    <footer class="page-footer white">
+    <footer class="page-footer" style="background-color: rgba(0, 0, 0, .0)">
       <div class="container">
         <div class="row">
         <div class="col l6 s12">
-          <h5 class="black-text">Follow me on social media</h5>
-          <p class="black-text text-lighten-4">The people who are crazy enough to think they can change the world,</p>
-          <p class="black-text text-lighten-4"> are the ones who do</p>
-          <p class="black-text text-lighten-4">-Steve Jobs</p>
+          <h5 class="white-text">Follow me on social media</h5>
+          <p class="white-text text-lighten-4">The people who are crazy enough to think they can change the world,</p>
+          <p class="white-text text-lighten-4"> are the ones who do</p>
+          <p class="white-text text-lighten-4">-Steve Jobs</p>
           <div class="" style="float:left; padding:10px">
             <a href="https://www.linkedin.com/in/joseph-ngoma-03189214b/"><img src="images/linkedin.png" alt="Linkedin" width="25" height="25"></a>
           </div>
@@ -259,7 +259,7 @@
             <a href="https://twitter.com/mr_joey0707"><img src="images/twitter.png" alt="twitter" width="25" height="25"></a>
           </div>
           <div class="" style="float:left; padding:10px">
-            <a href="https://github.com/Kid-Seven-7"><img src="images/instagram.png" width="25" height="25"></a>
+            <a href="https://www.instagram.com/mr_joey0707/"><img src="images/instagram.png" width="25" height="25"></a>
           </div>
         </div>
         </div>
